@@ -1,0 +1,30 @@
+{
+  "name": "ecommerce",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./bin/www",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon .",
+    "debug": "node --inspect ./bin/www"
+  },
+  "dependencies": {
+    "bcrypt": "^3.0.5",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.5",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "^1.7.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb-stitch-browser-sdk": "^4.3.1",
+    "mongoose": "^5.4.19",
+    "mongoose-type-email": "^1.0.10",
+    "morgan": "~1.9.0",
+    "promisify": "0.0.3",
+    "regex": "^0.1.1",
+    "validator": "^10.11.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
